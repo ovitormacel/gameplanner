@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamePlanner</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <button>Menu</button>
+            <div class="account">
+                <a href="#">Meu Perfil</a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+
+        <div class="container">
+            <section class="player">
+                <div class="infos">
+                    <img src="/images/sokka.png" alt="Imagem do jogador" class="player_image">
+                    <div class="titles">
+                        <p class="player_nick">Macelir0s</p>
+                        <p class="classe">Desenvolvedor</p>
+                    </div>
+                </div>
+    
+                <div class="recompensas">
+                    <div class="xp_bar">
+                        <div class="xp_outside"></div>
+                        <div class="xp_inside"></div>
+                        <p>XP</p>
+                    </div>
+    
+                    <div class="coins_points">
+                        <div class="coins design">
+                            <i class="fa-solid fa-coins"></i>
+                            <p>100000</p>
+                        </div>
+        
+                        <div class="points design">
+                            <i class="fa-solid fa-star"></i>
+                            <p>50</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="tasks">
+                <ul class="list_tasks">
+                    <div class="task">
+                        <div class="infos">
+                            <div class="start">
+                                <input type="checkbox" name="check">
+                                <p class="title_task">Estudar para a Prova</p>
+                            </div>
+                            <button class="edit_btn">Edit</button>
+    
+                        </div>
+    
+                        <div class="recompensas_task">
+                            <div class="coins icons_req">
+                                <i class="fa-solid fa-coins"></i>
+                                <p>100</p>
+                            </div>
+            
+                            <div class="points icons_req">
+                                <i class="fa-solid fa-star"></i>
+                                <p>2</p>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="task">
+                        <div class="infos">
+                            <div class="start">
+                                <input type="checkbox" name="check">
+                                <p class="title_task">Separar material para projeto</p>
+                            </div>
+                            <button class="edit_btn">Edit</button>
+    
+                        </div>
+                        
+                        <div class="recompensas_task">
+                            <div class="coins icons_req">
+                                <i class="fa-solid fa-coins"></i>
+                                <p>100</p>
+                            </div>
+            
+                            <div class="points icons_req">
+                                <i class="fa-solid fa-star"></i>
+                                <p>2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="add_task">
+                        <button class="btn_add"><i class="fa-solid fa-plus"></i> Nova Tarefa</button>
+                    </div>
+                </ul>
+
+                <div class="new_task">
+                    <div class="new_task_form">
+                        <h3>Nova Tarefa</h3>
+                        <form>
+                            <label>
+                                <input type="text" class="input_form" placeholder="Título">
+                            </label>
+                            <label>
+                                <i class="fa-solid fa-coins"></i> <input type="number" class="input_form numb" placeholder="Moedas">
+                            </label>
+                            <label>
+                                <i class="fa-solid fa-star"></i> <input type="number" class="input_form numb" placeholder="Pontos">
+                            </label>
+                            <label>
+                                <input type="submit" value="Adicionar">
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer></footer>
+
+    <script src="https://kit.fontawesome.com/3bb5c1e371.js" crossorigin="anonymous"></script>
+</body>
+</html>
